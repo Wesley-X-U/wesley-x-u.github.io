@@ -1,153 +1,194 @@
-﻿﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Wesley Xu - Automation Systems Engineering Technology student. Resume, projects, and co-op experience." />
   <title>Wesley Xu - Resume Website</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="container">
-  <!-- Header / Name -->
-  <h1>
-    <img src="Wesley Xu.jpg" class="profile">
-    <span style="margin-left:12px;"><i>Wesley Xu</i></span>
-  </h1>
 
-  <!-- Intro -->
-  <div class="bubble">
-  <h2>Introduction</h2>
-  <p><b>Hello, I’m Wesley.</b></p>
-  <p>
-    I’m an Automation Systems Engineering Technology student at McMaster University with co-op experience in
-    product design, CNC machining, and technical documentation. I enjoy turning real requirements into practical
-    engineering solutions—from CAD drawings to manufacturing support and inspection.
-  </p>
+    <header class="site-header">
+      <img src="Wesley Xu.jpg" class="profile" alt="Portrait of Wesley Xu" />
+      <div class="header-text">
+        <h1>Wesley Xu</h1>
+        <p class="tagline">
+          Automation Systems Engineering Technology (BTech) • McMaster University
+        </p>
+        <p class="header-links:">
+          <a href="mailto:xu553@mcmaster.ca">xu553@mcmaster.ca</a>
+          <span class="sep">•</span>
+          <a href="https://linkedin.com/in/wesley-xu-167531264" target="_blank" rel="noopener">
+            LinkedIn
+          </a>
+        </p>
+      </div>
+    </header>
 
-  <hr />
-  </div>
+    <main>
 
-  <!-- Skills -->
-  <div class="bubble">
-  <h2>Skills</h2>
-  <ul>
-    <li><b>Programming & Control:</b> C++, JavaScript, PLC, MATLAB, Verilog</li>
-    <li><b>Tools:</b> LabVIEW (HMI + data processing)</li>
-    <li><b>CAD & Documentation:</b> SolidWorks, AutoCAD, engineering drawings, manuals</li>
-    <li><b>Manufacturing:</b> CNC machining (3-axis & 4-axis), G-code, inspection & quality checks</li>
-  </ul>
+      <section class="bubble" aria-labelledby="intro-title">
+        <h2 id="intro-title">Introduction</h2>
+        <p><strong>Hello, I’m Wesley.</strong></p>
+        <p>
+          I’m an Automation Systems Engineering Technology student at McMaster University with co-op experience in
+          product design, CNC machining, and technical documentation. I enjoy turning real requirements into practical
+          engineering solutions—from CAD drawings to manufacturing support and inspection.
+        </p>
+      </section>
 
-  <hr />
-  </div>
+      <section class="bubble" aria-labelledby="skills-title">
+        <h2 id="skills-title">Skills</h2>
+        <ul>
+          <li><strong>Programming &amp; Control:</strong> C++, JavaScript, PLC, MATLAB, Verilog</li>
+          <li><strong>Tools:</strong> LabVIEW (HMI + data processing)</li>
+          <li><strong>CAD &amp; Documentation:</strong> SolidWorks, AutoCAD, engineering drawings, manuals</li>
+          <li><strong>Manufacturing:</strong> CNC machining (3-axis &amp; 4-axis), G-code, inspection &amp; quality checks</li>
+        </ul>
+      </section>
 
-  <!-- Experience -->
-  <div class="bubble">
-  <h2>Work Experience (Co-op)</h2>
+      <section class="bubble" aria-labelledby="exp-title">
+        <h2 id="exp-title">Work Experience (Co-op)</h2>
 
-  <p>
-    <b><i>Manufacturing Engineering Assistant</i></b>
-    — <a rel="noopener" href="https://catertools.com/" target="_blank">Cater Tools Supply Inc.</a>
-    <br />
-    <small>May 2025 – Aug 2025</small>
-  </p>
-  <ul>
-    <li>Designed products from concept to production with 2D drawings and 3D models.</li>
-    <li>Programmed and operated CNC machining centers, including 4-axis machining.</li>
-    <li>Optimized G-code and machining strategies for accuracy and efficiency.</li>
-    <li>Performed inspections to verify dimensional accuracy and quality compliance.</li>
-  </ul>
+        <article class="entry">
+          <div class="entry-head">
+            <p class="entry-role"><strong><em>Manufacturing Engineering Assistant</em></strong></p>
+            <p class="entry-meta">
+              <a href="https://catertools.com/" target="_blank" rel="noopener">Cater Tools Supply Inc.</a>
+              <span class="sep">•</span>
+              <span>May 2025 – Aug 2025</span>
+            </p>
+          </div>
+          <ul>
+            <li>Designed products from concept to production with 2D drawings and 3D models.</li>
+            <li>Programmed and operated CNC machining centers, including 4-axis machining.</li>
+            <li>Optimized G-code and machining strategies for accuracy and efficiency.</li>
+            <li>Performed inspections to verify dimensional accuracy and quality compliance.</li>
+          </ul>
+        </article>
 
-  <p>
-    <b><i>Engineering Assistant (Co-op Team Leader)</i></b>
-    — <a rel="noopener" href="https://www.sheartak.com/" target="_blank">Sheartak Tools Ltd.</a>
-    <br />
-    <small>May 2024 – Aug 2024</small>
-  </p>
-  <ul>
-    <li>Built precise models/drawings in SolidWorks & AutoCAD based on client requirements.</li>
-    <li>Developed installation manuals and troubleshooting documentation.</li>
-    <li>Represented the company at the International Woodworking Fair in Atlanta.</li>
-    <li>Supported website updates and basic ERP/SQL workflows.</li>
-  </ul>
+        <article class="entry">
+          <div class="entry-head">
+            <p class="entry-role"><strong><em>Engineering Assistant (Co-op Team Leader)</em></strong></p>
+            <p class="entry-meta">
+              <a href="https://www.sheartak.com/" target="_blank" rel="noopener">Sheartak Tools Ltd.</a>
+              <span class="sep">•</span>
+              <span>May 2024 – Aug 2024</span>
+            </p>
+          </div>
+          <ul>
+            <li>Built precise models/drawings in SolidWorks &amp; AutoCAD based on client requirements.</li>
+            <li>Developed installation manuals and troubleshooting documentation.</li>
+            <li>Represented the company at the International Woodworking Fair in Atlanta.</li>
+            <li>Supported website updates and basic ERP/SQL workflows.</li>
+          </ul>
+        </article>
 
-  <p>
-    <b><i>Engineering Assistant</i></b>
-    — <a rel="noopener" href="https://www.sheartak.com/" target="_blank">Sheartak Tools Ltd.</a>
-    <br />
-    <small>May 2023 – Aug 2023</small>
-  </p>
-  <ul>
-    <li>Created and edited product/installation videos for social platforms.</li>
-    <li>Performed incoming inspections using precision measuring tools.</li>
-    <li>Supported warehouse operations (receiving, shipping, inventory).</li>
-  </ul>
+        <article class="entry">
+          <div class="entry-head">
+            <p class="entry-role"><strong><em>Engineering Assistant</em></strong></p>
+            <p class="entry-meta">
+              <a href="https://www.sheartak.com/" target="_blank" rel="noopener">Sheartak Tools Ltd.</a>
+              <span class="sep">•</span>
+              <span>May 2023 – Aug 2023</span>
+            </p>
+          </div>
+          <ul>
+            <li>Created and edited product/installation videos for social platforms.</li>
+            <li>Performed incoming inspections using precision measuring tools.</li>
+            <li>Supported warehouse operations (receiving, shipping, inventory).</li>
+          </ul>
+        </article>
+      </section>
 
-  <hr />
-  </div>
+      <section class="bubble" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
 
-  <!-- Projects -->
-  <div class="bubble">
-  <h2>Projects</h2>
+        <article class="entry">
+          <div class="entry-head">
+            <p class="entry-role"><strong>Smart Pet Feeder (IoT &amp; Automation)</strong></p>
+            <p class="entry-meta"><span>Sep 2025 – Dec 2025</span></p>
+          </div>
+          <p class="tech"><strong>Technologies:</strong> LabVIEW, sensors, servo actuation, cloud monitoring</p>
+          <ul>
+            <li>Integrated sensors with servo actuation and LabVIEW control/HMI.</li>
+            <li>Built user controls for scheduled/manual feeding and real-time visualization.</li>
+            <li>Enabled cloud monitoring for remote visibility and validation.</li>
+          </ul>
+        </article>
 
-  <p><b>Smart Pet Feeder (IoT & Automation)</b> <br /><small>Sep 2025 – Dec 2025</small></p>
-  <ul>
-    <li>Integrated sensors with servo actuation and LabVIEW control/HMI.</li>
-    <li>Built user controls for scheduled/manual feeding and real-time visualization.</li>
-    <li>Enabled cloud monitoring for remote visibility and validation.</li>
-  </ul>
+        <article class="entry">
+          <div class="entry-head">
+            <p class="entry-role"><strong>Elevator Control System (FPGA / Verilog)</strong></p>
+            <p class="entry-meta"><span>Sep 2025 – Dec 2025</span></p>
+          </div>
+          <p class="tech"><strong>Technologies:</strong> Verilog, FSM design, DE0-Nano</p>
+          <ul>
+            <li>Designed an FSM-based multi-floor control system on DE0-Nano using Verilog.</li>
+            <li>Verified operation using simulation and on-board hardware testing.</li>
+          </ul>
+        </article>
 
-  <p><b>Elevator Control System (FPGA / Verilog)</b> <br /><small>Sep 2025 – Dec 2025</small></p>
-  <ul>
-    <li>Designed an FSM-based multi-floor control system on DE0-Nano using Verilog.</li>
-    <li>Verified operation using simulation and on-board hardware testing.</li>
-  </ul>
+        <article class="entry">
+          <div class="entry-head">
+            <p class="entry-role"><strong>Raspberry Pi Temperature Monitor</strong></p>
+            <p class="entry-meta"><span>May 2023 – Aug 2023</span></p>
+          </div>
+          <p class="tech"><strong>Technologies:</strong> Raspberry Pi, Python, sensor reading, display</p>
+          <ul>
+            <li>Read sensor data and displayed temperature on an attached screen using Python.</li>
+          </ul>
+        </article>
+      </section>
 
-  <p><b>Raspberry Pi Temperature Monitor</b> <br /><small>May 2023 – Aug 2023</small></p>
-  <ul>
-    <li>Read sensor data and displayed temperature on an attached screen using Python.</li>
-  </ul>
+      <section class="bubble" aria-labelledby="edu-title">
+        <h2 id="edu-title">Education</h2>
+        <p>
+          <strong>McMaster University</strong><br />
+          Automation Systems Engineering Technology (BTech) — Expected 2026<br />
+          Hamilton, Ontario
+        </p>
+        <p>
+          <strong>Waterloo Collegiate Institute</strong><br />
+          2018 – 2022<br />
+          Waterloo, Ontario
+        </p>
+      </section>
 
-  <hr />
-  </div>
+      <section class="bubble" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <ul>
+          <li>Email: <a href="mailto:xu553@mcmaster.ca">xu553@mcmaster.ca</a></li>
+          <li>
+            LinkedIn:
+            <a href="https://linkedin.com/in/wesley-xu-167531264" target="_blank" rel="noopener">
+              linkedin.com/in/wesley-xu-167531264
+            </a>
+          </li>
+        </ul>
+        <p class="note">
+          Note: This public webpage intentionally excludes sensitive personal information (phone number, student ID, address).
+        </p>
+      </section>
 
-  <!-- Education -->
-  <div class="bubble">
-  <h2>Education</h2>
-  <p><b>McMaster University</b><br />Automation Systems Engineering Technology (BTech) — Expected 2026<br />Hamilton, Ontario</p>
-  <p><b>Waterloo Collegiate Institute</b><br />2018 – 2022<br />Waterloo, Ontario</p>
+      <section class="bubble" aria-labelledby="hobbies-title">
+        <h2 id="hobbies-title">Hobbies</h2>
+        <ol>
+          <li><strong>Gym Training</strong> — Regular strength and conditioning workouts</li>
+          <li><strong>Table Tennis</strong> — 5 years of playing experience</li>
+          <li><strong>Photography</strong> — Landscape and wildlife photography</li>
+        </ol>
+      </section>
 
-  <hr />
-  </div>
+    </main>
 
-  <!-- Contact -->
-  <div class="bubble">
-  <h2>Contact</h2>
-  <ul>
-    <li>Email: <a href="mailto:xu553@mcmaster.ca">xu553@mcmaster.ca</a></li>
-    <li>LinkedIn: <a href="https://linkedin.com/in/wesley-xu-167531264" target="_blank" rel="noopener">linkedin.com/in/wesley-xu-167531264</a></li>
-  </ul>
-  <p><small>Note: This public webpage intentionally excludes sensitive personal information (phone number, student ID, address).</small></p>
+    <footer class="site-footer">
+      <p>&copy; 2026 Wesley Xu</p>
+    </footer>
 
-  <hr />
-  </div>
-
-  <!-- Hobbies -->
-  <div class="bubble">
-  <h2>Hobbies</h2>
-  <ol>
-    <li><b>Gym Training</b> - Regular strength and conditioning workout</li>
-    <li><b>Table Tennis</b> - 5 years of playing experience</li>
-    <li><b>Photography</b> - Landscape and wildlife photography</li>
-  </ol>
-  </div>
-
-  <!-- Footer -->
-  <div class="bubble">
-  <footer>
-    <p>&#169; 2026 Wesley Xu</p>
-  </footer>
-  </div>
   </div>
 </body>
 </html>
